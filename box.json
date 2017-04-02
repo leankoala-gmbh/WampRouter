@@ -1,0 +1,19 @@
+{
+  "directories": ["vendor"],
+  "main": "bin/router.php",
+  "output": "bin/WampRouter.phar",
+  "chmod": "0755",
+  "stub": true,
+  "finder": [
+    {
+      "name": "*.php",
+      "exclude": [
+        "Tests",
+        "tests",
+        "example",
+        "test"
+      ],
+      "in": "vendor"
+    }
+  ]
+}

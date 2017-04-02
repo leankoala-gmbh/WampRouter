@@ -1,7 +1,13 @@
 {
   "minimum-stability": "dev",
   "prefer-stable": true,
+
+  "autoload" : {
+    "psr-4" : { "phmLabs\\WampRouter\\": "src/" }
+  },
+
   "require": {
-    "voryx/thruway": "0.1.*"
+    "voryx/thruway": "0.4.*",
+    "cilex/cilex": "~2.0"
   }
 }
