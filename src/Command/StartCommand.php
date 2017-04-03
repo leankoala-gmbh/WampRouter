@@ -36,7 +36,7 @@ class StartCommand extends Command
         $port = $input->getOption('port');
 
         $output->writeln('');
-        $output->writeln('<comment>phmLabs/WampRouter v1.0</comment> written by Nils Langner, based on voryx/thruway.');
+        $output->writeln('<comment>phmLabs/WampRouter</comment> written by Nils Langner, based on voryx/thruway.');
         $output->writeln('');
 
         $output->writeln("<info>Starting on $host:$port.</info>");
