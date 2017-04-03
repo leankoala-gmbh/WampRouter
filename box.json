@@ -1,5 +1,7 @@
 {
-  "directories": ["vendor"],
+  "directories": [
+    "vendor"
+  ],
   "main": "bin/router.php",
   "output": "bin/WampRouter.phar",
   "chmod": "0755",
@@ -13,7 +15,10 @@
         "example",
         "test"
       ],
-      "in": "vendor"
+      "in": [
+        "vendor",
+        "src"
+      ]
     }
   ]
 }
